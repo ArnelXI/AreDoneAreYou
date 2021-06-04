@@ -20,7 +20,7 @@ for line in content:
     if line == "#done\n" or line == "#Done\n":
         completion = completion + 1
         count = count + 1
-    elif line == "#todo\n" or line == "#Todo\n":
+    elif line == "#Notdone\n" or line == "#notdone\n":
         count = count + 1
 
 percent = (completion * 100) / count
