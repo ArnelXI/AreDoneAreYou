@@ -1,5 +1,5 @@
-
-filename = "testfile.py" # Will use the code to find the path in this part
+filename = input("Please enter the complete or relative path to your file: ")
+ # Will use the code to find the path in this part
 
 count = 0
 completion = 0
